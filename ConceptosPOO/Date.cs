@@ -27,7 +27,7 @@ namespace ConceptosPOO
             }
 
             int[] daysPerMonth = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-            if(day>=1 && month <= daysPerMonth[month])
+            if(day>=1 && day <= daysPerMonth[month])
             {
                 return day;
             }

@@ -4,7 +4,7 @@ Console.WriteLine("*********MI APLICACION********");
 
 try
 {
-    Console.WriteLine(new Date(2022, 11, 33));
+    Console.WriteLine(new Date(2022, 11, 28).ToString());
 }
 catch (Exception error)
 {
